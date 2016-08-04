@@ -1,1 +1,1 @@
-include ':app', ':magicindicator', ':immooc_download'
+include ':app', ':magicindicator', ':immooc_download', ':slidingmenu', ':convenientbanner'
