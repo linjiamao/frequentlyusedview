@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
                     .setPageTransformer(CubeOutTransformer.class.newInstance())//设置切换动画
                     .setPageIndicatorAlign(ConvenientBanner.PageIndicatorAlign.CENTER_HORIZONTAL)//设置圆点的位置
                     .setOnItemClickListener(this);
+            mConvenientBanner.setScrollDuration(1500);
 //            mConvenientBanner.stopTurning();// 设置之后上来就是停止的翻页状态，滑动之后恢复翻页，就无法再次停止
 //            mConvenientBanner.setManualPageable(false);//设置手动影响(设置了该项无法手动切换);
             mConvenientBanner.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
