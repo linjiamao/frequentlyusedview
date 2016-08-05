@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/circleimageview" />
             <option value="$PROJECT_DIR$/convenientbanner" />
             <option value="$PROJECT_DIR$/immooc_download" />
             <option value="$PROJECT_DIR$/magicindicator" />
@@ -19,6 +21,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/circleimageview" />
             <option value="$PROJECT_DIR$/convenientbanner" />
             <option value="$PROJECT_DIR$/immooc_download" />
             <option value="$PROJECT_DIR$/magicindicator" />

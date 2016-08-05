@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/convenientbanner/convenientbanner.iml" filepath="$PROJECT_DIR$/convenientbanner/convenientbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/frequentlyUsedView.iml" filepath="$PROJECT_DIR$/frequentlyUsedView.iml" />
       <module fileurl="file://$PROJECT_DIR$/immooc_download/immooc_download.iml" filepath="$PROJECT_DIR$/immooc_download/immooc_download.iml" />
