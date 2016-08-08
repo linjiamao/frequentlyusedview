@@ -16,15 +16,17 @@ import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
  */
 public class GlideRoundTransform extends BitmapTransformation {
 
-    private static float radius = 0f;
+    private static float radius_left = 0f;
+    private static float radius_right = 0f;
 
     public GlideRoundTransform(Context context) {
-        this(context, 4);
+        this(context, 4,4);
     }
 
-    public GlideRoundTransform(Context context, int dp) {
+    public GlideRoundTransform(Context context, int left_dp,int right_dp) {
         super(context);
-        this.radius = Resources.getSystem().getDisplayMetrics().density * dp;
+        this.radius_left = Resources.getSystem().getDisplayMetrics().density * left_dp;
+        this.radius_right = Resources.getSystem().getDisplayMetrics().density * right_dp;
     }
 
     @Override protected Bitmap transform(BitmapPool pool, Bitmap toTransform, int outWidth, int outHeight) {
@@ -44,11 +46,11 @@ public class GlideRoundTransform extends BitmapTransformation {
         paint.setShader(new BitmapShader(source, BitmapShader.TileMode.CLAMP, BitmapShader.TileMode.CLAMP));
         paint.setAntiAlias(true);
         RectF rectF = new RectF(0f, 0f, source.getWidth(), source.getHeight());
-        canvas.drawRoundRect(rectF, radius, radius, paint);
+        canvas.drawRoundRect(rectF, radius_left, radius_right, paint);
         return result;
     }
 
     @Override public String getId() {
-        return getClass().getName() + Math.round(radius);
+        return getClass().getName() + Math.round(radius_left);
     }
 }
