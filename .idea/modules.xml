@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/immooc_download/immooc_download.iml" filepath="$PROJECT_DIR$/immooc_download/immooc_download.iml" />
       <module fileurl="file://$PROJECT_DIR$/magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/magicindicator/magicindicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateapk/updateapk.iml" filepath="$PROJECT_DIR$/updateapk/updateapk.iml" />
     </modules>
   </component>
 </project>

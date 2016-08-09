@@ -8,6 +8,7 @@ import com.bumptech.glide.Glide;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+
 /**
  * 圆形图片
  */
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         circleImageView = (CircleImageView) findViewById(R.id.circleImageView);
-        mImageView = (ImageView) findViewById(R.id.imageView);
+        mImageView = (ImageView)
         //使用第三方框架显示圆形图片  de.hdodenhof:circleimageview:2.1.0
 //        Glide.with(this).load("http://client.yeeaoobox.com//uploadimages//86591466843429.png")
 //                .placeholder(R.mipmap.hugh).into(circleImageView);
