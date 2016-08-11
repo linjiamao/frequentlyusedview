@@ -1,1 +1,1 @@
-include ':app', ':magicindicator', ':immooc_download', ':slidingmenu', ':convenientbanner', ':circleimageview', ':butterknife', ':updateapk'
+include ':app', ':magicindicator', ':immooc_download', ':slidingmenu', ':convenientbanner', ':circleimageview', ':butterknife', ':updateapk', ':citydemo'
