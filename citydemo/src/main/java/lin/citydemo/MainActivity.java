@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements MySlideView.onTou
                 break;
             }
         }
-        mRecyclerView.scrollToPosition(selectPosition);
+        mLayoutManager.scrollToPositionWithOffset(selectPosition,0);
     }
 
     @Override
